@@ -1,0 +1,16 @@
+res://scene/dang_nhap.tscn::7107923fa508db3ed67093e411ccd4ed::1760610290::res://.godot/exported/133200997/export-96d72d2ad055f94acc6ca34eb61ef651-dang_nhap.scn
+res://scene/menu.tscn::c5d6fa467bead554c1c5e5a51e4c69bd::1761832610::res://.godot/exported/133200997/export-425af8aabff62af1784d609241d4b88c-menu.scn
+res://asset/tres/button1.tres::e078db8b6b24d93b1e266092ab87196e::1761387864::res://.godot/exported/133200997/export-2b7cb306e782af078e32c10528a16b3d-button1.res
+res://asset/tres/button_nor.tres::72d4e3903106fe78d75bf90ccb8d8885::1761360455::res://.godot/exported/133200997/export-2938067c0e2253ed2729cf7403ecf492-button_nor.res
+res://asset/tres/danh_sach_button.tres::ff912ef71d6106d6e343622c5922a236::1761399147::res://.godot/exported/133200997/export-b3f422fa6e3433994d8bce1da4c1a017-danh_sach_button.res
+res://asset/tres/menu_thanh_phan_hover.tres::35f0cf12f808e38425605b0b202cd787::1761200869::res://.godot/exported/133200997/export-6e4ead21a179a1a420fa0ade34fa1421-menu_thanh_phan_hover.res
+res://asset/tres/menu_thanh_phan_press.tres::a1fddf1b9a4c909e1f9d78011ceb1cc0::1761151102::res://.godot/exported/133200997/export-a53eff69c4fbdf99ab92b94f57905eb2-menu_thanh_phan_press.res
+res://asset/tres/normal.tres::19abb6980a846b1d35628107d85cc2e6::1761386422::res://.godot/exported/133200997/export-5db8da940f013b802ae28071aa13703c-normal.res
+res://asset/tres/nut_nho.tres::a668d737dffe481ff8aa814b58981103::1761633293::res://.godot/exported/133200997/export-448a61755976075b04b48c9270d9717f-nut_nho.res
+res://asset/tres/thanh_phan_menu.tres::588283ec0078e7d5b578f9d9c287e3ec::1761151072::res://.godot/exported/133200997/export-5fb7acecf66e26a8997d8018038d85a5-thanh_phan_menu.res
+res://scene/danh_sach.tscn::bb03d6d73eb00100d7342dc59ef4ff24::1762158122::res://.godot/exported/133200997/export-8672c6913cbe46d42810420dd76f2576-danh_sach.scn
+res://scene/main_code.tscn::31f52711fea20f1397c78cec86599d2d::1762138978::res://.godot/exported/133200997/export-c1475cd39cd04f561b03157ac3d608ce-main_code.scn
+res://scene/nut_nho.tscn::e9be892f1c301baa7a723454a1437011::1761832291::res://.godot/exported/133200997/export-333d602d426d2921f6b10b806841e7e0-nut_nho.scn
+res://scene/thanh_phan_ds.tscn::003f4d439d0fb509430814fefb4186fd::1762157763::res://.godot/exported/133200997/export-49f8d483a92e621479767ba21db143be-thanh_phan_ds.scn
+res://scene/thanh_phan_kh.tscn::839fe73d7fe3f890266e9224ff1f0849::1762139006::res://.godot/exported/133200997/export-5acb98226a8e948cd31558aa98b5a34c-thanh_phan_kh.scn
+res://scene/trinh_phat_video.tscn::98934737a147b7c15ac68621e6eb716c::1762157834::res://.godot/exported/133200997/export-ba79c43592b0c7d90206674247cd317a-trinh_phat_video.scn

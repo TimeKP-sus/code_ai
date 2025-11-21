@@ -1,0 +1,208 @@
+[gd_scene load_steps=13 format=3 uid="uid://cod8owj0p0cfh"]
+
+[ext_resource type="FontFile" uid="uid://bq0gt2yodv6ah" path="res://asset/font/UTM Facebook.ttf" id="1_5vtd2"]
+[ext_resource type="Script" uid="uid://bp7oen184i5ie" path="res://gd/trinh_phat_video.gd" id="1_qeb5d"]
+[ext_resource type="PackedScene" uid="uid://c00lwl1ykm2n" path="res://scene/nut_nho.tscn" id="4_m83vk"]
+[ext_resource type="Texture2D" uid="uid://danmrju713qdc" path="res://asset/icon/left-arrow.png" id="4_nchgx"]
+[ext_resource type="Texture2D" uid="uid://c6q1mm5te8314" path="res://asset/icon/anticlockwise-rotation.png" id="5_wqs2l"]
+[ext_resource type="Texture2D" uid="uid://bua5fepaqv4ry" path="res://asset/icon/anticlockwise-rotation_r.png" id="6_0rkij"]
+[ext_resource type="Texture2D" uid="uid://bbokiplrnswq6" path="res://asset/icon/pause-button.png" id="7_j8uat"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_qeb5d"]
+line_spacing = 4.0
+paragraph_spacing = 2.0
+font = ExtResource("1_5vtd2")
+font_size = 45
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="FontVariation" id="FontVariation_m83vk"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_nchgx"]
+line_spacing = 4.0
+paragraph_spacing = 2.0
+font = SubResource("FontVariation_m83vk")
+font_size = 20
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_m83vk"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 8.0
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 3
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nchgx"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 8.0
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 3
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="TrinhPhatVideo" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_qeb5d")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.112
+anchor_right = 0.5
+anchor_bottom = 0.112
+offset_left = -600.0
+offset_top = -89.600006
+offset_right = 600.0
+offset_bottom = -23.600006
+grow_horizontal = 2
+grow_vertical = 2
+text = "Tiêu đề"
+label_settings = SubResource("LabelSettings_qeb5d")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="vien" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.095000006
+anchor_right = 1.0
+anchor_bottom = 0.10700001
+offset_bottom = 0.3999939
+color = Color(0, 0, 0, 1)
+
+[node name="Panel" parent="." instance=ExtResource("4_m83vk")]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.019000001
+anchor_top = 0.020000001
+anchor_right = 0.061000004
+anchor_bottom = 0.082
+offset_left = 0.19999886
+offset_right = -0.20000458
+offset_bottom = 0.40000153
+icon = ExtResource("4_nchgx")
+path = "res://scene/danh_sach.tscn"
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.042000003
+anchor_top = 0.135
+anchor_right = 0.95800006
+anchor_bottom = 0.924
+offset_left = -0.40000534
+offset_right = 0.39990234
+offset_bottom = -0.2000122
+grow_horizontal = 2
+grow_vertical = 2
+expand = true
+
+[node name="time" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.58100003
+anchor_top = 0.924
+anchor_right = 0.95800006
+anchor_bottom = 0.95900005
+offset_left = -624.2
+offset_top = -0.2000122
+offset_right = -0.60009766
+offset_bottom = -0.2000122
+grow_horizontal = 2
+grow_vertical = 2
+text = "Time"
+label_settings = SubResource("LabelSettings_nchgx")
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="tua_tien" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.437
+anchor_top = 0.94000006
+anchor_right = 0.47100002
+anchor_bottom = 0.9710001
+offset_left = 0.5999756
+offset_top = -6.1035156e-05
+offset_right = -0.2000122
+offset_bottom = 0.19995117
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_m83vk")
+icon = ExtResource("5_wqs2l")
+icon_alignment = 1
+expand_icon = true
+
+[node name="tua_lui" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.52900004
+anchor_top = 0.94000006
+anchor_right = 0.56200004
+anchor_bottom = 0.9710001
+offset_left = 0.19995117
+offset_top = -6.1035156e-05
+offset_right = 0.5999756
+offset_bottom = 0.19995117
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_m83vk")
+icon = ExtResource("6_0rkij")
+icon_alignment = 1
+expand_icon = true
+
+[node name="tam_dung" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.48000002
+anchor_top = 0.94000006
+anchor_right = 0.52000004
+anchor_bottom = 0.98100007
+offset_left = -1.0
+offset_top = -6.1035156e-05
+offset_right = 0.99993896
+offset_bottom = -0.8000488
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_nchgx")
+icon = ExtResource("7_j8uat")
+icon_alignment = 1
+expand_icon = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="button_down" from="tua_tien" to="." method="_on_tua_tien_button_down"]
+[connection signal="button_down" from="tua_lui" to="." method="_on_tua_lui_button_down"]
+[connection signal="button_down" from="tam_dung" to="." method="_on_tam_dung_button_down"]

@@ -1,0 +1,11 @@
+[TextEdit]
+
+properties=PackedStringArray("theme_override_colors/font_color", "theme_override_fonts/font", "theme_override_font_sizes/font_size")
+
+[StyleBoxFlat]
+
+properties=PackedStringArray("bg_color")
+
+[LabelSettings]
+
+properties=PackedStringArray("font_size", "outline_size")

@@ -1,0 +1,220 @@
+[gd_scene load_steps=13 format=3 uid="uid://wfwbllgypvsh"]
+
+[ext_resource type="FontFile" uid="uid://dd2ue6cf26lyg" path="res://asset/font/FiraCode-Regular.ttf" id="1_0tqh1"]
+[ext_resource type="StyleBox" uid="uid://b6485ggrbfdu4" path="res://asset/tres/button_nor.tres" id="2_pyh2v"]
+[ext_resource type="PackedScene" uid="uid://c00lwl1ykm2n" path="res://scene/nut_nho.tscn" id="3_lau11"]
+[ext_resource type="Texture2D" uid="uid://cwjd6iehu12c7" path="res://asset/icon/return-104-32.png" id="4_pyh2v"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ggx3j"]
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="FontVariation" id="FontVariation_ilj5g"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6ilm6"]
+bg_color = Color(0.9882353, 0.48235294, 0, 1)
+border_width_bottom = 1
+border_color = Color(0.8862745, 0.73333335, 0, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g5x73"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 6
+border_color = Color(0.8862745, 0.73333335, 0, 1)
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n3oq3"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 6
+border_color = Color(0.26774505, 0.6734462, 0.999999, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="FontVariation" id="FontVariation_2ik7d"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ssax3"]
+font = SubResource("FontVariation_2ik7d")
+font_size = 20
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ehrr3"]
+content_margin_left = 30.0
+bg_color = Color(0.15102097, 1.6845763e-05, 0.6096493, 1)
+border_width_left = 3
+border_width_right = 3
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+corner_detail = 1
+shadow_color = Color(0.86036915, 0.8603692, 0.8603692, 0.6)
+
+[node name="main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_lock_ = true
+
+[node name="VietCode" type="VietCode" parent="."]
+physics_interpolation_mode = 0
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.156
+anchor_right = 0.558
+anchor_bottom = 1.0
+offset_top = 0.19999695
+offset_right = 2.3999634
+theme_override_colors/caret_color = Color(1, 0.69803923, 0.05490196, 1)
+theme_override_colors/caret_background_color = Color(1, 1, 1, 1)
+theme_override_colors/selection_color = Color(0.81851745, 0.86231834, 0.9903286, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_colors/word_highlighted_color = Color(0, 0.75686276, 0.9647059, 0.14901961)
+theme_override_constants/caret_width = 2
+theme_override_constants/line_spacing = 15
+theme_override_fonts/font = ExtResource("1_0tqh1")
+theme_override_font_sizes/font_size = 16
+theme_override_styles/normal = SubResource("StyleBoxFlat_ggx3j")
+theme_override_colors/code_folding_color = Color(0.54896253, 0.54896265, 0.54896235, 0.8)
+theme_override_colors/folded_code_region_color = Color(0.10409347, 0.10744042, 0.46656048, 0.2)
+theme_override_colors/line_number_color = Color(0.6370396, 0, 4.3288126, 1)
+text = "print(\"hello world\")"
+backspace_deletes_composite_character_enabled = true
+virtual_keyboard_enabled = false
+virtual_keyboard_show_on_focus = false
+middle_mouse_paste_enabled = false
+wrap_mode = 1
+scroll_smooth = true
+scroll_v_scroll_speed = 25.0
+minimap_draw = true
+caret_blink = true
+draw_tabs = true
+symbol_tooltip_on_hover = true
+gutters_draw_breakpoints_gutter = true
+gutters_draw_bookmarks = true
+gutters_draw_executing_lines = true
+gutters_draw_line_numbers = true
+gutters_zero_pad_line_numbers = true
+gutters_draw_fold_gutter = true
+auto_brace_completion_enabled = true
+auto_brace_completion_highlight_matching = true
+
+[node name="kiem_tra" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.78800005
+anchor_top = 0.906
+anchor_right = 0.8880001
+anchor_bottom = 0.957
+offset_left = 0.39996338
+offset_top = 0.2000122
+offset_right = 0.39990234
+offset_bottom = 0.39996338
+theme_override_fonts/font = SubResource("FontVariation_ilj5g")
+theme_override_styles/normal = ExtResource("2_pyh2v")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_6ilm6")
+theme_override_styles/hover = SubResource("StyleBoxFlat_g5x73")
+text = "Kiểm tra"
+
+[node name="chay" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.66400003
+anchor_top = 0.906
+anchor_right = 0.76400006
+anchor_bottom = 0.957
+offset_left = 0.19995117
+offset_top = 0.2000122
+offset_right = 0.19995117
+offset_bottom = 0.39996338
+theme_override_fonts/font = SubResource("FontVariation_ilj5g")
+theme_override_styles/normal = SubResource("StyleBoxFlat_n3oq3")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_6ilm6")
+theme_override_styles/hover = SubResource("StyleBoxFlat_g5x73")
+text = "Chạy"
+
+[node name="debai" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.06666667
+anchor_top = 0.0125
+anchor_right = 1.0
+anchor_bottom = 0.15
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Kiểm Tra Python bằng AI"
+label_settings = SubResource("LabelSettings_ssax3")
+metadata/_edit_use_anchors_ = true
+
+[node name="kq_ai" type="TextEdit" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.583
+anchor_top = 0.156
+anchor_right = 0.9620001
+anchor_bottom = 0.86500007
+offset_left = 0.4000244
+offset_top = 0.19999695
+offset_right = 7.5998535
+offset_bottom = 7.999939
+theme_override_colors/font_readonly_color = Color(14.314274, 11.426685, 18.892157, 1)
+theme_override_fonts/font = ExtResource("1_0tqh1")
+theme_override_font_sizes/font_size = 16
+theme_override_styles/normal = SubResource("StyleBoxFlat_ehrr3")
+text = "Kiểm tra"
+editable = false
+wrap_mode = 1
+scroll_smooth = true
+scroll_v_scroll_speed = 30.0
+language = "en_VN"
+
+[node name="Label3" type="Label" parent="."]
+layout_mode = 0
+offset_left = 700.0
+offset_top = 63.0
+offset_right = 1009.64764
+offset_bottom = 108.55522
+
+[node name="quaylai" parent="." instance=ExtResource("3_lau11")]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 10.0
+offset_right = 61.0
+offset_bottom = 60.0
+icon = ExtResource("4_pyh2v")
+
+[connection signal="button_down" from="kiem_tra" to="VietCode" method="kiem_tra"]
+[connection signal="button_down" from="chay" to="VietCode" method="chay_python"]

@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=3 uid="uid://c00lwl1ykm2n"]
+
+[ext_resource type="Script" uid="uid://ds3oklh07c0n0" path="res://nut_nho.gd" id="1_n3obd"]
+[ext_resource type="StyleBox" uid="uid://cahswklh5rok5" path="res://asset/tres/nut_nho.tres" id="2_n3obd"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bo06a"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n3obd"]
+content_margin_left = 10.0
+content_margin_top = 8.0
+content_margin_right = 10.0
+content_margin_bottom = 12.0
+bg_color = Color(0, 0, 0, 0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+shadow_color = Color(1, 1, 1, 0.6)
+shadow_offset = Vector2(0, 0.5)
+anti_aliasing = false
+
+[node name="Panel" type="Panel"]
+offset_right = 50.0
+offset_bottom = 50.0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_bo06a")
+script = ExtResource("1_n3obd")
+
+[node name="Button" type="Button" parent="."]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
+theme_override_colors/icon_hover_color = Color(1, 1, 1, 1)
+theme_override_styles/normal = ExtResource("2_n3obd")
+theme_override_styles/hover = SubResource("StyleBoxFlat_n3obd")
+icon_alignment = 1
+expand_icon = true
+
+[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]

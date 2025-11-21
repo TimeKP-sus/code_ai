@@ -1,0 +1,28 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib", "staticlib"]
+
+
+# [[bin]]
+# name = "your_binary"
+# path = "src/pythonrun.rs"
+# windows_subsystem = "windows"
+
+
+[dependencies]
+godot = { git = "https://github.com/godot-rust/gdext.git", rev = "4c7db4833a932c1ff647ac841036f3e631ec2877" }
+reqwest = { version = "0.12.24", features = ["json"] }
+tokio = { version = "1.48.0", features = ["full"] }
+serde = { version = "1.0.118", features = ["derive"]}
+serde_json ={ version = "1.0.60"}
+# pyo3 = { version = "0.27.0", features = ["auto-initialize"] }
+
+
+
+# [[bin]]
+# name = "rust_bin"
+# path = "src/viet_code.rs"

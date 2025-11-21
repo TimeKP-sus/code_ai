@@ -1,0 +1,121 @@
+[gd_scene load_steps=12 format=3 uid="uid://0hy3qmy5nftj"]
+
+[ext_resource type="Script" uid="uid://c0x6xbonbgcen" path="res://thanh_phan_ds.gd" id="1_jxs2c"]
+[ext_resource type="FontFile" uid="uid://bq0gt2yodv6ah" path="res://asset/font/UTM Facebook.ttf" id="1_wheq6"]
+[ext_resource type="StyleBox" uid="uid://cy2kg4itwgvh7" path="res://asset/tres/danh_sach_button.tres" id="2_xnk3g"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_m1g13"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_l1d6u"]
+bg_color = Color(0, 0, 0, 0)
+border_width_left = 6
+border_width_top = 6
+border_width_right = 6
+border_width_bottom = 10
+border_color = Color(0.1254902, 0, 0.3647059, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xnk3g"]
+content_margin_left = 13.0
+content_margin_top = 0.0
+content_margin_right = 10.0
+content_margin_bottom = 10.0
+bg_color = Color(0.6, 0.6, 0.6, 0)
+anti_aliasing = false
+
+[sub_resource type="LabelSettings" id="LabelSettings_l1d6u"]
+font = ExtResource("1_wheq6")
+font_size = 50
+outline_size = 10
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wheq6"]
+content_margin_left = 13.0
+content_margin_top = 8.0
+content_margin_right = 10.0
+content_margin_bottom = 10.0
+bg_color = Color(0.6, 0.6, 0.6, 0)
+anti_aliasing = false
+
+[sub_resource type="LabelSettings" id="LabelSettings_xnk3g"]
+font = ExtResource("1_wheq6")
+font_size = 20
+outline_size = 6
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_le5ba"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 10.0
+content_margin_bottom = 0.0
+bg_color = Color(0.6, 0.6, 0.6, 0)
+anti_aliasing = false
+
+[sub_resource type="LabelSettings" id="LabelSettings_jxs2c"]
+font = ExtResource("1_wheq6")
+font_size = 12
+outline_size = 4
+outline_color = Color(0, 0, 0, 1)
+
+[node name="ThanhPhanDs" type="Panel"]
+custom_minimum_size = Vector2(500, 150)
+anchors_preset = -1
+anchor_right = 0.41700003
+anchor_bottom = 0.187
+offset_right = -0.4000244
+offset_bottom = -49.600006
+size_flags_horizontal = 0
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxEmpty_m1g13")
+script = ExtResource("1_jxs2c")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/normal = ExtResource("2_xnk3g")
+theme_override_styles/hover = SubResource("StyleBoxFlat_l1d6u")
+
+[node name="so" type="Label" parent="Button"]
+layout_mode = 0
+offset_right = 105.0
+offset_bottom = 150.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_xnk3g")
+text = "1"
+label_settings = SubResource("LabelSettings_l1d6u")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="tieude" type="Label" parent="Button"]
+layout_mode = 0
+offset_left = 124.0
+offset_right = 494.0
+offset_bottom = 119.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_wheq6")
+text = "Tiêu đề"
+label_settings = SubResource("LabelSettings_xnk3g")
+autowrap_mode = 3
+clip_text = true
+
+[node name="dang" type="Label" parent="Button"]
+layout_mode = 0
+offset_left = 314.0
+offset_top = 119.0
+offset_right = 491.0
+offset_bottom = 142.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_le5ba")
+text = "Dạng"
+label_settings = SubResource("LabelSettings_jxs2c")
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 3
+clip_text = true
+
+[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]

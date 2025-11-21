@@ -1,0 +1,66 @@
+[gd_scene load_steps=8 format=3 uid="uid://bgn0hb83dfg1q"]
+
+[ext_resource type="Script" uid="uid://c30ck7by3nxh8" path="res://gd/thanh_phan_kh.gd" id="1_4j3o3"]
+[ext_resource type="StyleBox" uid="uid://cmcjup0ypu4cn" path="res://asset/tres/thanh_phan_menu.tres" id="1_o2y3l"]
+[ext_resource type="StyleBox" uid="uid://ommlmbwdgji1" path="res://asset/tres/menu_thanh_phan_press.tres" id="2_4j3o3"]
+[ext_resource type="FontFile" uid="uid://bq0gt2yodv6ah" path="res://asset/font/UTM Facebook.ttf" id="3_5fpiq"]
+[ext_resource type="StyleBox" uid="uid://bs77een4uvd8q" path="res://asset/tres/menu_thanh_phan_hover.tres" id="4_4j3o3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_a6qtt"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ip2os"]
+line_spacing = 4.0
+paragraph_spacing = 2.0
+font = ExtResource("3_5fpiq")
+font_size = 36
+font_color = Color(0, 0, 0, 1)
+
+[node name="thanh_phan" type="Panel"]
+custom_minimum_size = Vector2(300, 200)
+offset_right = 300.0
+offset_bottom = 200.0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_a6qtt")
+script = ExtResource("1_4j3o3")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/normal = ExtResource("1_o2y3l")
+theme_override_styles/pressed = ExtResource("2_4j3o3")
+theme_override_styles/hover = ExtResource("4_4j3o3")
+theme_override_styles/hover_pressed = ExtResource("2_4j3o3")
+
+[node name="Label" type="Label" parent="Button"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -110.0
+offset_top = -76.0
+offset_right = 110.0
+offset_bottom = -23.0
+grow_horizontal = 2
+grow_vertical = 0
+label_settings = SubResource("LabelSettings_ip2os")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="logo" type="TextureRect" parent="Button"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -50.0
+offset_top = 21.0
+offset_right = 50.0
+offset_bottom = 121.0
+grow_horizontal = 2
+expand_mode = 1
+
+[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]

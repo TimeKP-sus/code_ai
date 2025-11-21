@@ -1,0 +1,39 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://bki4pg4km0u06"]
+
+[ext_resource type="FontFile" uid="uid://bq0gt2yodv6ah" path="res://asset/font/UTM Facebook.ttf" id="1_upbfv"]
+[ext_resource type="StyleBox" uid="uid://n7qtuo0gf1fi" path="res://asset/tres/normal.tres" id="2_sbdr5"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r4vdw"]
+content_margin_bottom = 10.0
+bg_color = Color(0, 0, 0, 1)
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+shadow_color = Color(1, 0.7058824, 0, 1)
+shadow_size = 2
+shadow_offset = Vector2(0, 4)
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2na04"]
+bg_color = Color(0, 0.38039216, 1, 1)
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+anti_aliasing = false
+
+[resource]
+default_font = ExtResource("1_upbfv")
+Button/colors/font_color = Color(1, 1, 1, 1)
+Button/colors/font_hover_color = Color(1, 0.7058824, 0, 1)
+Button/colors/font_hover_pressed_color = Color(0, 0.38039216, 1, 1)
+Button/fonts/font = ExtResource("1_upbfv")
+Button/styles/focus = ExtResource("2_sbdr5")
+Button/styles/hover = SubResource("StyleBoxFlat_r4vdw")
+Button/styles/hover_pressed = SubResource("StyleBoxFlat_2na04")
+Button/styles/normal = ExtResource("2_sbdr5")

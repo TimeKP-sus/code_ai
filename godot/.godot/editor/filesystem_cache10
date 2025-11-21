@@ -1,0 +1,52 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1763690652
+export_presets.cfg::TextFile::-1::1762158176::0::1::::<><><>0<>0<><>::
+nut_nho.gd::GDScript::8481332299264578087::1762160055::0::1::::<>Panel<><>0<>0<><>::
+rust.gdextension::GDExtension::7313852497780413814::1760427204::0::1::::<><><>0<>0<><>::
+thanh_phan_ds.gd::GDScript::6576966521458806653::1762157719::0::1::::ThanhPhan<>Panel<><>0<>0<><>::
+::res://asset/::1761832294
+::res://asset/des/::1760596071
+Frame 405.png::CompressedTexture2D::2811150409834491648::1760595899::1760596071::1::::<><><>0<>0<>1e7c2395bbc886981cdb97ff8f732464<>res://.godot/imported/Frame 405.png-af4e4992dd7bdcc932a9173e2111f264.ctex::
+Frame.png::CompressedTexture2D::6122158584413463479::1760596044::1760596071::1::::<><><>0<>0<>f5e01649a741af88c2d03b8ed27a167a<>res://.godot/imported/Frame.png-e16987c853dc61f96fdf63d738334755.ctex::
+::res://asset/font/::1761387854
+FiraCode-Regular.ttf::FontFile::7426789895961916586::1638799034::1761387854::1::::<><><>0<>0<>51b2ee57a9eb0634e2230a27ff2c1c3b<>res://.godot/imported/FiraCode-Regular.ttf-bd79fab85d7f03bff405e871a7659f96.fontdata::
+UTM Facebook.ttf::FontFile::3561451313640631451::1310357004::1761141124::1::::<><><>0<>0<>7ae98c289a53e5d0c28cd48a25240c62<>res://.godot/imported/UTM Facebook.ttf-5e48aba90dc2e2c627105f8fe712de29.fontdata::
+::res://asset/icon/::1762136465
+anticlockwise-rotation.png::CompressedTexture2D::6983326313063232169::1762136464::1762136465::1::::<><><>0<>0<>784569403b1249511fa0b91c7a26a4cb<>res://.godot/imported/anticlockwise-rotation.png-d018a222b4ffe664a65a421a748bbbc4.ctex::
+anticlockwise-rotation_r.png::CompressedTexture2D::3792028228493974838::1762136455::1762136465::1::::<><><>0<>0<>554d3038752f38a30417de88c2311b21<>res://.godot/imported/anticlockwise-rotation_r.png-6f06621e89e7154a5a9d900c3a789438.ctex::
+human.png::CompressedTexture2D::564090154241434973::1761360318::1761360333::1::::<><><>0<>0<>be8d493848e36bcf05e5318f77eacfb4<>res://.godot/imported/human.png-182c5902f92b757de2f1b2d374ce2167.ctex::
+left-arrow.png::CompressedTexture2D::7186858429387698088::1761633127::1761633128::1::::<><><>0<>0<>43b5400320af3f0562e3b5b6222c43e5<>res://.godot/imported/left-arrow.png-73ddce13f10f1d0cce5034cc869ea108.ctex::
+pause-button.png::CompressedTexture2D::2486133077800482903::1762136167::1762136195::1::::<><><>0<>0<>44aba1473a77b7d517fe807677c1544b<>res://.godot/imported/pause-button.png-2e21c2d15483ffe4655355ef7db189c8.ctex::
+return-104-32.png::CompressedTexture2D::6335813264510650432::1761360844::1761360845::1::::<><><>0<>0<>cc394311fcc844c7aff4f3b79fdb6a63<>res://.godot/imported/return-104-32.png-7d2e7056b84b599870ffb2a8b5bfa288.ctex::
+::res://asset/logo/::1761200193
+icon.svg::CompressedTexture2D::4302216119588241947::1760426911::1761141165::1::::<><><>0<>0<>e4e7dea3fd3bf14ba1066aa34567aa9e<>res://.godot/imported/icon.svg-9a65b2314ed8eb5f58557aec68c17ea2.ctex::
+python.svg::CompressedTexture2D::8389781994996122373::1761141242::1761141245::1::::<><><>0<>0<>6e00c4e79a513e0818439837f86ece2b<>res://.godot/imported/python.svg-088dc20e55ee155a2a7754fbab0f1ae5.ctex::
+rust_logo.svg::CompressedTexture2D::4846855025119543923::1761200189::1761200193::1::::<><><>0<>0<>eda0dbb961fe4331fe01ca4ad01c5bb3<>res://.godot/imported/rust_logo.svg-c1bc03d6d4b212b45c3f53a22d49e022.ctex::
+::res://asset/tres/::1761832291
+button1.tres::Theme::3106612082215529801::1761387864::0::1::::<><><>0<>0<><>::uid://bq0gt2yodv6ah::::res://asset/font/UTM Facebook.ttf<>uid://n7qtuo0gf1fi::::res://asset/tres/normal.tres
+button_nor.tres::StyleBoxFlat::4624199351101145257::1761360455::0::1::::<><><>0<>0<><>::
+danh_sach_button.tres::StyleBoxFlat::6513731235178209618::1761399147::0::1::::<><><>0<>0<><>::
+menu_thanh_phan_hover.tres::StyleBoxFlat::3717830275772785222::1761200869::0::1::::<><><>0<>0<><>::
+menu_thanh_phan_press.tres::StyleBoxFlat::1008165224456163118::1761151102::0::1::::<><><>0<>0<><>::
+normal.tres::StyleBoxFlat::979521530631185346::1761386422::0::1::::<><><>0<>0<><>::
+nut_nho.tres::StyleBoxFlat::4788424747585497394::1761633293::0::1::::<><><>0<>0<><>::
+thanh_phan_menu.tres::StyleBoxFlat::5619819242945383829::1761151072::0::1::::<><><>0<>0<><>::
+::res://asset/video/::1761556131
+Python in 100 Seconds.ogv::VideoStreamTheora::2359578270485101375::1761556131::0::1::::<><><>0<>0<><>::
+::res://gd/::1762160163
+danh_sach.gd::GDScript::8905370551289343552::1762157763::0::1::::<>Control<><>0<>0<><>::
+main.gd::GDScript::1672581911469220141::1761757064::0::1::::<>MainNode<><>0<>0<><>::
+node_2d.gd::GDScript::7730182698064859344::1760449457::0::1::::<>Node2D<><>0<>0<><>::
+py.gd::GDScript::8537747924711794318::1760536285::0::1::::<>CodeHighlighter<><>0<>0<><>::
+thanh_phan_kh.gd::GDScript::6789879408447599571::1761201440::0::1::::<>Panel<><>0<>0<><>::
+trinh_phat_video.gd::GDScript::3506171331974788540::1762160163::0::1::::TrinhPhatVideo<>Control<><>0<>0<><>::
+viet_code.gd::GDScript::1771966261988634002::1760536609::0::1::::<>VietCode<><>0<>0<><>::
+::res://scene/::1762160163
+dang_nhap.tscn::PackedScene::6976249524129610148::1760610290::0::1::::<><><>0<>0<><>::uid://cthvb7ndnwsy6::::res://asset/des/Frame.png
+danh_sach.tscn::PackedScene::3140714340911390767::1762160163::0::1::::<><><>0<>0<><>::uid://bq0gt2yodv6ah::::res://asset/font/UTM Facebook.ttf<>uid://dy43fft3qx273::::res://gd/danh_sach.gd<>uid://c00lwl1ykm2n::::res://scene/nut_nho.tscn<>uid://danmrju713qdc::::res://asset/icon/left-arrow.png
+main_code.tscn::PackedScene::1555814603496777655::1762138978::0::1::::<><><>0<>0<><>::uid://dd2ue6cf26lyg::::res://asset/font/FiraCode-Regular.ttf<>uid://b6485ggrbfdu4::::res://asset/tres/button_nor.tres<>uid://c00lwl1ykm2n::::res://scene/nut_nho.tscn<>uid://cwjd6iehu12c7::::res://asset/icon/return-104-32.png
+menu.tscn::PackedScene::6737186476736816131::1761832610::0::1::::<><><>0<>0<><>::uid://bq0gt2yodv6ah::::res://asset/font/UTM Facebook.ttf<>uid://c00lwl1ykm2n::::res://scene/nut_nho.tscn<>uid://drscqpfff1w6p::::res://asset/logo/python.svg<>uid://bgn0hb83dfg1q::::res://scene/thanh_phan_kh.tscn<>uid://ibiqnxi5wmr2::::res://asset/icon/human.png<>uid://cbb382hi27rnf::::res://asset/logo/rust_logo.svg
+nut_nho.tscn::PackedScene::193525873400027299::1761832291::0::1::::<><><>0<>0<><>::uid://ds3oklh07c0n0::::res://nut_nho.gd<>uid://cahswklh5rok5::::res://asset/tres/nut_nho.tres
+thanh_phan_ds.tscn::PackedScene::1770679805327273195::1762157763::0::1::::<><><>0<>0<><>::uid://c0x6xbonbgcen::::res://thanh_phan_ds.gd<>uid://bq0gt2yodv6ah::::res://asset/font/UTM Facebook.ttf<>uid://cy2kg4itwgvh7::::res://asset/tres/danh_sach_button.tres
+thanh_phan_kh.tscn::PackedScene::2835921186478869428::1762139006::0::1::::<><><>0<>0<><>::uid://c30ck7by3nxh8::::res://gd/thanh_phan_kh.gd<>uid://cmcjup0ypu4cn::::res://asset/tres/thanh_phan_menu.tres<>uid://ommlmbwdgji1::::res://asset/tres/menu_thanh_phan_press.tres<>uid://bq0gt2yodv6ah::::res://asset/font/UTM Facebook.ttf<>uid://bs77een4uvd8q::::res://asset/tres/menu_thanh_phan_hover.tres
+trinh_phat_video.tscn::PackedScene::5763708144030655313::1762159157::0::1::::<><><>0<>0<><>::uid://bq0gt2yodv6ah::::res://asset/font/UTM Facebook.ttf<>uid://bp7oen184i5ie::::res://gd/trinh_phat_video.gd<>uid://c00lwl1ykm2n::::res://scene/nut_nho.tscn<>uid://danmrju713qdc::::res://asset/icon/left-arrow.png<>uid://c6q1mm5te8314::::res://asset/icon/anticlockwise-rotation.png<>uid://bua5fepaqv4ry::::res://asset/icon/anticlockwise-rotation_r.png<>uid://bbokiplrnswq6::::res://asset/icon/pause-button.png
