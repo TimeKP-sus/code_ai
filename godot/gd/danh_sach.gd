@@ -1,4 +1,5 @@
 extends Control
+class_name ThanhPhanDS
 
 @onready var grid_container: GridContainer = $Control/ScrollContainer/GridContainer
 
